@@ -1,0 +1,43 @@
+
+set guifont=Hack
+set number
+"Goyo Settings
+let g:goyo_width = 88
+let g:goyo_height = 150
+Goyo
+"Ensures Goyo frame/window is persistent through change in window size.
+autocmd VimResized * :Goyo 88x150
+"~~~~~~~~~~~~~~~~~~~~~~~~~~
+func! WordProcessor()
+  SoftPencil
+  " movement changes
+  "noremap j gj
+  "noremap k gk
+  "noremap 0 g0
+  "noremap $ g$
+  "noremap A g$a
+  "noremap I g0i
+  " formatting text
+  "let g:goyo_width = 88
+  "let g:goyo_height = 150
+  "let g:goyo_margin_top = 10
+  "let g:goyo_margin_bottom = 10
+  "Goyo
+  "set formatoptions=1
+  "set noexpandtab
+  "set wrap
+  "set linebreak
+  "set textwidth=88
+  " spelling and thesaurus
+  "setlocal spell spelllang=en_us
+  "set thesaurus+=/home/test/.vim/thesaurus/mthesaur.txt
+  " complete+=s makes autocompletion search the thesaurus
+  "set complete+=s
+  "colorscheme options
+  set background=light
+  let g:solarized_contrast="high"
+  let g:solarized_visibility="high"
+  
+  colorscheme solarized
+endfu
+"call WordProcessor()
