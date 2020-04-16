@@ -1,12 +1,16 @@
 "SHOULD NOT SOURCE ANYTHING
 call plug#begin('~/.vim/plugged')
 
-Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
-Plug 'tibabit/vim-templates'
 Plug 'junegunn/goyo.vim'
-Plug 'MarcWeber/vim-addon-local-vimrc' 
-Plug 'vim-syntastic/syntastic'
+"Plug 'MarcWeber/vim-addon-local-vimrc' 
 
 call plug#end()
+
+inoremap jk <Esc>
+inoremap kj <Esc>
+let mapleader = ' '
+
+set noswapfile
+

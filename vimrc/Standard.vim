@@ -1,4 +1,5 @@
-source ~/GithubDrive/vimrc/Base
+source ~/GithubDrive/vimrc/Base.vim
+
 
 set display+=lastline 
 set scrolloff=1 "cursor horizontal and vertical space to edge
@@ -57,5 +58,5 @@ let g:syntastic_check_on_wq = 0
 " Helper Functions
 
 " Source vimrcs per filetype
-autocmd BufEnter *.py source ~/GithubDrive/vimrc/Python
+autocmd BufEnter *.py source ~/GithubDrive/vimrc/Python.vim
 " 
