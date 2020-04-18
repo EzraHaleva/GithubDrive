@@ -1,5 +1,20 @@
 augroup MyGoyoAutoCmds
-	autocmd VimEnter * :r! python ~/Journal/BackEnd/PrintTimeStamp.py
-	autocmd VimEnter * :Goyo 100x100
-	autocmd VimResized * :Goyo 100x100
+	autocmd VimResized * :Goyo 78x100
 augroup END
+
+Goyo 78x100
+r! python "${PythonScriptsDir}PrintTimeStamp.py"
+set formatprg=par
+set background=light
+colorscheme gruvbox
+g:gruvbox_contrast_light=hard
+
+set spell spelllang=en_us
+
+set guifont="Liberation Mono 12"
+
+set wrap
+set linebreak
+
+exe "normal kkddGo\<CR>"
+startinsert
