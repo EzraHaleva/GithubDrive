@@ -11,6 +11,9 @@ call plug#end()
 
 inoremap jk <Esc>
 inoremap kj <Esc>
+vnoremap jk <Esc>
+vnoremap kj <Esc>
+
 nnoremap ; :
 let mapleader = ' '
 
