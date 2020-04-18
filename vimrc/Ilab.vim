@@ -33,12 +33,19 @@ inoremap <Down> <nop>
 inoremap <Up> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
-tnoremap <Esc> :<C-w>N
 "Nerd Tree Settings
 map <C-n> :NERDTreeToggle<CR>
 
+"So that tmux+vim work nice in Ilab SSH
+if &term =~ '256color'
+    " Disable Background Color Erase (BCE) so that color schemes
+    " work properly when Vim is used inside tmux and GNU screen.
+     set t_ut=
+endif
+
+set t_Co=256
 "gruvbox colorscheme options
-set termguicolors
+"set termguicolors - Not available in ilab old version of vim
 set background=dark
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_italic=0
