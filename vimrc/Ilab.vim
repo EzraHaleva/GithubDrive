@@ -33,6 +33,9 @@ inoremap <Down> <nop>
 inoremap <Up> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
+"because control b takes a while because reserved by tmux
+noremap <C-F> <C-b>
+
 "Nerd Tree Settings
 map <C-n> :NERDTreeToggle<CR>
 
