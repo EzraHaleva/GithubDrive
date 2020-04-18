@@ -1,0 +1,13 @@
+#Initialize Journal Environment variables, (file directories)
+source /home/ezra/Journal/BackEnd/BashScripts/InitializeEnvVars.sh
+#Journal aliases
+alias NewEntry="~/Journal/BackEnd/BashScripts/NewEntry.sh"
+alias Compile="~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
+alias TestEntry="~/Journal/BackEnd/BashScripts/TestEntry.sh"
+
+#Navigation aliases
+alias tojrnl="cd ${JournalDriveDir}"
+alias vimrc="cd ~/GithubDrive/vimrc/"
+alias toconf="cd ~/GithubDrive/linuxconfig/"
+alias tojrnldev="cd ~/Journal/BackEnd/"
+alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
