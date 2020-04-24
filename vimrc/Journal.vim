@@ -3,7 +3,6 @@ augroup MyGoyoAutoCmds
 augroup END
 
 Goyo 78x100
-r! python "${PythonScriptsDir}PrintTimeStamp.py"
 set formatprg=par
 set background=light
 colorscheme gruvbox
@@ -19,5 +18,4 @@ set guifont="Liberation Mono 12"
 set wrap
 set linebreak
 
-exe "normal kkddGo\<CR>"
 startinsert

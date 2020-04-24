@@ -4,11 +4,14 @@ source /home/ezra/Journal/BackEnd/BashScripts/InitializeEnvVars.sh
 alias NewEntry="~/Journal/BackEnd/BashScripts/NewEntry.sh"
 alias Compile="~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
 alias Save="~/Journal/BackEnd/BashScripts/Save.sh"
-alias TestEntry="~/Journal/BackEnd/BashScripts/TestEntry.sh"
+alias EditEntry="~/Journal/BackEnd/BashScripts/EditEntry.sh"
+alias TestNewEntry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
+alias TestEditEntry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
 
 #Navigation aliases
-alias tojrnl="cd ${JournalDriveDir}"
+alias bashrc="vim ~/GithubDrive/linuxconfig/bashrc"
 alias vimrc="cd ~/GithubDrive/vimrc/"
 alias liconf="cd ~/GithubDrive/linuxconfig/"
+alias tojrnl="cd ${JournalDriveDir}"
 alias tojrnldev="cd ~/Journal/BackEnd/"
 alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
