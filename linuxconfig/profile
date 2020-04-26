@@ -1,3 +1,4 @@
 # make capslock cntrl
 setxkbmap -layout us -option ctrl:nocaps
+XDG_CONFIG_HOME="~/.config/"
 

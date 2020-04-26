@@ -8,6 +8,8 @@ alias EditEntry="~/Journal/BackEnd/BashScripts/EditEntry.sh"
 alias TestNewEntry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
 alias TestEditEntry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
 
+alias vf="vifm"
+
 #Navigation aliases
 alias bashrc="vim ~/GithubDrive/linuxconfig/bashrc"
 alias vimrc="cd ~/GithubDrive/vimrc/"
@@ -15,3 +17,25 @@ alias liconf="cd ~/GithubDrive/linuxconfig/"
 alias tojrnl="cd ${JournalDriveDir}"
 alias tojrnldev="cd ~/Journal/BackEnd/"
 alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
+
+#Function from vifm wiki so shell directory is same as vifm
+#directory upon exit. Isn't called directly by vifm, but accesses
+#a file created by vifm, which is told to do so by mapping in vifmrc
+vifm()
+{
+    if [ -f ~/.config/vifm/lastdir ]; then
+        rm ~/.config/vifm/lastdir
+    fi
+    # "command" prevents recursive call
+    command vifm "$@"
+    if [ -f ~/.config/vifm/lastdir ]; then
+        cd `cat ~/.config/vifm/lastdir`
+    fi
+}
+
+if [ "${StartTermWithVifm}" = "true" ]
+then
+   vifm
+fi
+export StartTermWithVifm="false"
+neofetch

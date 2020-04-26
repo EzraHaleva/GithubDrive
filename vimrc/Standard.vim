@@ -5,6 +5,7 @@ set display+=lastline
 set scrolloff=1 "cursor horizontal and vertical space to edge
 set sidescrolloff=5
 set wrap "line wrapping
+set linebreak "wraps not in middle of words
 set ruler "always show cursor position
 set wildmenu "command line tab complete as menu
 set cursorline 
@@ -43,6 +44,10 @@ set background=dark
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_italic=0
 colorscheme gruvbox
+
+let g:lightline = {
+   \ 'colorscheme': 'gruvbox',
+   \ }
 
 "Syntastic settings
 "set statusline+=%#warningmsg#

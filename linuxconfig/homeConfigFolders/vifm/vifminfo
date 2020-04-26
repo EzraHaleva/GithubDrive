@@ -1,0 +1,51 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'b
+	/home/ezra/.config/bspwm
+	..
+1587840941
+'q
+	/home/ezra/.config/sxhkd
+	sxhkdrc
+1587841719
+
+# Bookmarks:
+
+# Trash content:
+t/home/ezra/.local/share/vifm/Trash/000_Python.vim
+	/home/ezra/GithubDrive/Python.vim
+t/home/ezra/.local/share/vifm/Trash/000_test.txt
+	/home/ezra/.vifm/test.txt
+t/home/ezra/.local/share/vifm/Trash/000_test
+	/home/ezra/.vifm/test
+t/home/ezra/.local/share/vifm/Trash/000_.vifm
+	/home/ezra/.vifm
+t/home/ezra/.local/share/vifm/Trash/000_.lesshst
+	/home/ezra/.lesshst
+t/home/ezra/.local/share/vifm/Trash/000_.mozilla
+	/home/ezra/.mozilla
+t/home/ezra/.local/share/vifm/Trash/000_.testdoc2.txt.swp
+	/home/ezra/Documents/.testdoc2.txt.swp
+t/home/ezra/.local/share/vifm/Trash/000_dwm
+	/home/ezra/GithubDrive/linuxconfig/dwm
+t/home/ezra/.local/share/vifm/Trash/000_bspwm
+	/home/ezra/.config/bspwm
+t/home/ezra/.local/share/vifm/Trash/001_bspwm
+	/home/ezra/bspwm
+t/home/ezra/.local/share/vifm/Trash/001_test.txt
+	/home/ezra/GithubDrive/test.txt
+t/home/ezra/.local/share/vifm/Trash/000_sxhkd
+	/home/ezra/sxhkd
+t/home/ezra/.local/share/vifm/Trash/000_i3
+	/home/ezra/.config/i3
+t/home/ezra/.local/share/vifm/Trash/002_test.txt
+	/home/ezra/test.txt
+t/home/ezra/.local/share/vifm/Trash/000_bspwmrc
+	/home/ezra/GithubDrive/linuxconfig/bspwmrc
+t/home/ezra/.local/share/vifm/Trash/000_sxhkdrc
+	/home/ezra/GithubDrive/linuxconfig/sxhkdrc
+t/home/ezra/.local/share/vifm/Trash/000_i3config
+	/home/ezra/i3config
+t/home/ezra/.local/share/vifm/Trash/000_nohup.out
+	/home/ezra/nohup.out

@@ -18,4 +18,5 @@ nnoremap ; :
 let mapleader = ' '
 
 set noswapfile
+set noshowmode
 
