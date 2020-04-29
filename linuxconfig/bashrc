@@ -1,14 +1,5 @@
 #Initialize Journal Environment variables, (file directories)
 source /home/ezra/Journal/BackEnd/BashScripts/InitializeEnvVars.sh
-#Journal aliases
-alias NewEntry="~/Journal/BackEnd/BashScripts/NewEntry.sh"
-alias Compile="~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
-alias Save="~/Journal/BackEnd/BashScripts/Save.sh"
-alias EditEntry="~/Journal/BackEnd/BashScripts/EditEntry.sh"
-alias TestNewEntry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
-alias TestEditEntry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
-
-alias vf="vifm"
 
 #Navigation aliases
 alias bashrc="vim ~/GithubDrive/linuxconfig/bashrc"
@@ -18,6 +9,24 @@ alias tojrnl="cd ${JournalDriveDir}"
 alias tojrnldev="cd ~/Journal/BackEnd/"
 alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
 
+#Journal aliases
+alias NewEntry="~/Journal/BackEnd/BashScripts/NewEntry.sh"
+alias Compile="~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
+alias Save="~/Journal/BackEnd/BashScripts/Save.sh"
+alias EditEntry="~/Journal/BackEnd/BashScripts/EditEntry.sh"
+alias TestNewEntry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
+alias TestEditEntry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
+
+#Command aliases
+alias vf="vifm"
+alias x="exit"
+#Navigation aliases
+alias bashrc="vim ~/GithubDrive/linuxconfig/bashrc"
+alias vimrc="cd ~/GithubDrive/vimrc/"
+alias liconf="cd ~/GithubDrive/linuxconfig/"
+alias tojrnl="cd ${JournalDriveDir}"
+alias tojrnldev="cd ~/Journal/BackEnd/"
+alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
 #Function from vifm wiki so shell directory is same as vifm
 #directory upon exit. Isn't called directly by vifm, but accesses
 #a file created by vifm, which is told to do so by mapping in vifmrc

@@ -19,8 +19,8 @@ command! q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
 nnoremap <Space>h :cd ~<cr>
 nnoremap <Space>c :cd ~/GithubDrive/linuxconfig<cr>
 nnoremap <Space>vc :cd ~/GithubDrive/vimrc/<cr>
-"nnoremap <Space> :cd 
-"nnoremap <Space> :cd 
+nnoremap <Space>r :cd /<cr>
+nnoremap <Space>ush :cd /usr/share/<cr>
 "nnoremap <Space> :cd 
 
 colorscheme gruvbox

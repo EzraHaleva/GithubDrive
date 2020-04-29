@@ -17,6 +17,7 @@ vnoremap kj <Esc>
 nnoremap ; :
 let mapleader = ' '
 
+nnoremap <leader>clr :let @/=""<cr>
 set noswapfile
 set noshowmode
 
