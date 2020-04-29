@@ -21,7 +21,7 @@ nnoremap <Space>c :cd ~/GithubDrive/linuxconfig<cr>
 nnoremap <Space>vc :cd ~/GithubDrive/vimrc/<cr>
 nnoremap <Space>r :cd /<cr>
 nnoremap <Space>ush :cd /usr/share/<cr>
-"nnoremap <Space> :cd 
+nnoremap <Space>dc :cd ~/.config<cr>
 
 colorscheme gruvbox
 
