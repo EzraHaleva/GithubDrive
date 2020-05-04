@@ -8,6 +8,7 @@ alias liconf="cd ~/GithubDrive/linuxconfig/"
 alias tojrnl="cd ${JournalDriveDir}"
 alias tojrnldev="cd ~/Journal/BackEnd/"
 alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
+alias cdWorkDir="cd ~/Journal/BackEnd/CRewrite"
 
 #Journal aliases
 alias NewEntry="~/Journal/BackEnd/BashScripts/NewEntry.sh"

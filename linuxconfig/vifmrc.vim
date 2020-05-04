@@ -1,3 +1,5 @@
+set vixcmd="nvim"
+
 noremap ; :
 cnoremap kj <C-c> 
 cnoremap jk <C-c> 
@@ -21,6 +23,9 @@ nnoremap <Space>c :cd ~/GithubDrive/linuxconfig<cr>
 nnoremap <Space>vc :cd ~/GithubDrive/vimrc/<cr>
 nnoremap <Space>r :cd /<cr>
 nnoremap <Space>ush :cd /usr/share/<cr>
+nnoremap <Space>j :cd ~/Journal/BackEnd<cr>
+nnoremap <Space>dc :cd ~/.config/<cr>
+"nnoremap <Space> :cd 
 "nnoremap <Space> :cd 
 
 colorscheme gruvbox

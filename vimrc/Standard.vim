@@ -1,4 +1,3 @@
-source ~/GithubDrive/vimrc/Base.vim
 
 
 set display+=lastline 
@@ -35,6 +34,8 @@ inoremap <Up> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
 tnoremap <Esc> :<C-w>N
+nnoremap <C-j> oa<BS><Esc>
+nnoremap <C-k> Oa<BS><Esc>
 "Nerd Tree Settings
 map <C-n> :NERDTreeToggle<CR>
 
@@ -64,4 +65,6 @@ let g:lightline = {
 
 " Source vimrcs per filetype
 autocmd BufEnter *.py source ~/GithubDrive/vimrc/Python.vim
+autocmd BufEnter *.c source ~/GithubDrive/vimrc/C.vim
+
 " 
