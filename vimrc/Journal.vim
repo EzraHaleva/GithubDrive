@@ -1,12 +1,17 @@
 augroup MyGoyoAutoCmds
 	autocmd VimResized * :Goyo 78x100
+        autocmd VimEnter * :Goyo 78x100
 augroup END
 
-Goyo 78x100
 set formatprg=par
 set background=light
-colorscheme gruvbox
-g:gruvbox_contrast_light=hard
+"colorscheme gruvbox
+"colorscheme fogbell_light
+colorscheme vacme
+"colorscheme plan9
+"colorscheme kuroi "highlighting issue
+"colorscheme 
+"colorscheme 
 
 noremap j gj
 noremap k gk
@@ -18,4 +23,4 @@ set guifont="Liberation Mono 12"
 set wrap
 set linebreak
 
-startinsert
+Goyo 78x100

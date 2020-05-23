@@ -1,0 +1,9 @@
+@xfce
+startx ~/.xinitrc startxfce4
+@dwm
+startx ~/.xinitrc dwm
+@i3
+startx ~/.xinitrc i3
+@TTY
+
+
