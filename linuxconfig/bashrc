@@ -48,4 +48,4 @@ then
    vifm
 fi
 export StartTermWithVifm="false"
-neofetch
+pfetch

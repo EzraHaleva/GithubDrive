@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
+Plug 'vim-syntastic/syntastic'
 
 "Colorschemes
 Plug 'altercation/vim-colors-solarized'
@@ -32,6 +33,8 @@ function! ClearSearch()
 endfunction
 set noswapfile
 set noshowmode
+
+let b:syntastic_mode='passive'
 
 if &term =~ '256color'
     " Disable Background Color Erase (BCE) so that color schemes

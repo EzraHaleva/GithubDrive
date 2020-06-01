@@ -21,6 +21,7 @@ set expandtab
 set incsearch
 set hlsearch
 
+
 syntax on
 filetype indent on
 
@@ -36,6 +37,13 @@ inoremap <Right> <nop>
 tnoremap <Esc> :<C-w>N
 nnoremap <C-j> oa<BS><Esc>
 nnoremap <C-k> Oa<BS><Esc>
+
+"Syntastic
+let b:syntastic_mode='active'
+nnoremap <leader>sn :lnext<cr>
+nnoremap <leader>sb :lprevious<cr>
+nnoremap <leader>sl :Errors<cr>
+
 "Nerd Tree Settings
 map <C-n> :NERDTreeToggle<CR>
 
