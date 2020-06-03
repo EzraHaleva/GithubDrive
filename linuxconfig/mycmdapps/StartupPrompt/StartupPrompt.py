@@ -16,15 +16,19 @@ class environment:
         self.name = name
         self.command = command
 
-
-print("Welcome Ezra, press Enter to select an environment")
-try:
-    timeout = .5
-    key = input_with_timeout("", timeout)
-    chooseEnv = 1
-except TimeoutExpired:
+autostart = 1
+if autostart :
     print("Starting default environment...")
     chooseEnv = 0
+else:
+    print("Welcome Ezra, press Enter to select an environment")
+    try:
+        timeout = 5
+        key = input_with_timeout("", timeout)
+        chooseEnv = 1
+    except TimeoutExpired:
+        print("Starting default environment...")
+        chooseEnv = 0
 
 #Load config file
 configFilePath = "/home/ezra/GithubDrive/linuxconfig/mycmdapps/StartupPrompt/config"
