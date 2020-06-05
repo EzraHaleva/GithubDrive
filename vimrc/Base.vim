@@ -31,7 +31,6 @@ nnoremap <leader>clr :call ClearSearch()<cr>
 function! ClearSearch()
    exec "normal :let @/=\"\"\<cr>/\<BS>"
 endfunction
-set noswapfile
 set noshowmode
 
 let b:syntastic_mode='passive'
