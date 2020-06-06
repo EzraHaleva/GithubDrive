@@ -1,14 +1,26 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Marks:
-'b
-	/home/ezra/.config/bspwm
+'H
+	/home/ezra/
 	..
-1587840941
+1588693980
+'b
+	/home/ezra/bin/
+	..
+1588693980
+'h
+	/home/ezra/
+	..
+1588693980
 'q
 	/home/ezra/.config/sxhkd
 	sxhkdrc
 1587841719
+'z
+	/home/ezra/.config/vifm
+	..
+1588693980
 
 # Bookmarks:
 
@@ -49,3 +61,11 @@ t/home/ezra/.local/share/vifm/Trash/000_i3config
 	/home/ezra/i3config
 t/home/ezra/.local/share/vifm/Trash/000_nohup.out
 	/home/ezra/nohup.out
+t/home/ezra/.local/share/vifm/Trash/000_.vim
+	/home/ezra/.vim
+t/home/ezra/.local/share/vifm/Trash/000_TestEntry.txt
+	/home/ezra/Journal/BackEnd/BashScripts/TestEntry.txt
+t/home/ezra/.local/share/vifm/Trash/000_.xinitrc
+	/home/ezra/.xinitrc
+t/home/ezra/.local/share/vifm/Trash/000_i3
+	/home/ezra/GithubDrive/linuxconfig/homeConfigFolders/i3

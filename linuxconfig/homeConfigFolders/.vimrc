@@ -5,5 +5,6 @@ if exists("useOnlyBaseVimrc")
 	"command line, plugins simply will not work. 
 	source ~/GithubDrive/vimrc/Base.vim
 else
+	source ~/GithubDrive/vimrc/Base.vim
 	source ~/GithubDrive/vimrc/Standard.vim
 endif
