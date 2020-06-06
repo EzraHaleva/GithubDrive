@@ -1,9 +1,0 @@
-March 13th, 2018
-
-
-11:30 pm
-
-I'm kishing the days until I'm fully healed. I'm not being entirely strict with the monk mode since I'm sick and eating garbage kind of taints it. I also haven't been meeting my productivity goals, instead seeking to alleviate the anxiety of my messy code by restructuring all the classes and everything. I can definitely see though how, in the current code I'm writing, I'll be able to write it sloppily first then refine it later. There is some concern though with GameMap not representing a game map but the game map and all the other problems. Player won't be a player but the player. I'm thinking I shouldn't include the changing of the game map in a GameMap class, or at least remove the list of all GameMaps from it. But then should the changing of GameMap to a different Map entirely be in the class itself or in another class of something like MapDetermination. No, it's not different game maps but different Map files so we're good. I'm drunk so journal isn't so successful. Will stop now, night night. 
-
-
-
