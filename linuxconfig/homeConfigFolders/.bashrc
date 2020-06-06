@@ -1,6 +1,5 @@
 # EZRA'S STUFF
 source ~/GithubDrive/linuxconfig/bashrc
-export testVar='testVal'
 # END OF EZRA'S STUFF
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
