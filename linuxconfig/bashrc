@@ -1,5 +1,5 @@
 #Initialize Journal Environment variables, (file directories)
-#source /home/ezra/Journal/BackEnd/BashScripts/InitializeEnvVars.sh
+source /home/ezra/Journal/BackEnd/BashScripts/InitializeEnvVars.sh
 
 #Navigation aliases
 alias bashrc="vim ~/GithubDrive/linuxconfig/bashrc"
