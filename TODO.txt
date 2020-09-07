@@ -7,20 +7,9 @@ Assorted computer related TODO:
 
 -Make journal app more of an encapsulated program. perhaps a command line app that we can launch with :journal, and then with a shortcut. Once app is launched, then we have options of n - new entry, e - edit entry, s - save (to github), x - exit. On journal exit we automatically save. on  journal entry we automatically pull. 
 
-- shoof different distros, see what we'll want. Probably something higher level and then stripped. 
+- Add non standard journal functionality. Say I want to make a disaster series, or a defenses document. 
 
 - configure a custom terminal build, of either xterm or st or some other  terminal emulator. Also with maybe fish shell?
 
 - switch to neovim
 
-For dspwm to be well usable:
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-- configure a custom xterm, just with the aesthetics we need. 
-
-- actually make a background
-
-- set up our desirable mappings for basic tmux like functionality
-
-- set up poly bar with any easily obtainable essentials
-
-- set up mappings to launch and focus on frequently used applications

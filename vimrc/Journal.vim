@@ -1,6 +1,7 @@
 augroup MyGoyoAutoCmds
 	autocmd VimResized * :Goyo 78x100
         autocmd VimEnter * :Goyo 78x100
+        autocmd TextChanged,TextChangedI <buffer> silent write
 augroup END
 
 set formatprg=par

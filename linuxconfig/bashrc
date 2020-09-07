@@ -12,7 +12,7 @@ alias cdWorkDir="cd ~/Journal/BackEnd/CRewrite"
 
 #Journal aliases
 alias NewEntry="~/Journal/BackEnd/BashScripts/NewEntry.sh"
-alias Compile="~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
+alias Compile="source ~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
 alias Save="~/Journal/BackEnd/BashScripts/Save.sh"
 alias EditEntry="~/Journal/BackEnd/BashScripts/EditEntry.sh"
 alias TestNewEntry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
@@ -48,4 +48,4 @@ then
    vifm
 fi
 export StartTermWithVifm="false"
-#pfetch
+neofetch
