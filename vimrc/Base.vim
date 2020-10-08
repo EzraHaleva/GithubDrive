@@ -27,6 +27,10 @@ vnoremap kj <Esc>
 nnoremap ; :
 let mapleader = ' '
 
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
 nnoremap <leader>clr :call ClearSearch()<cr>
 function! ClearSearch()
    exec "normal :let @/=\"\"\<cr>/\<BS>"
@@ -40,3 +44,6 @@ if &term =~ '256color'
     " work properly when Vim is used inside tmux and GNU screen.
      set t_ut=
 endif
+
+"So clipboard between vim instances works with +y/+p
+set clipboard=unnamed

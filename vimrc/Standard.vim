@@ -37,6 +37,7 @@ inoremap <Right> <nop>
 tnoremap <Esc> :<C-w>N
 nnoremap <C-j> oa<BS><Esc>
 nnoremap <C-k> Oa<BS><Esc>
+nnoremap <leader>b a{<cr>}<Esc>O
 
 "Syntastic
 let b:syntastic_mode='active'
@@ -74,5 +75,6 @@ let g:lightline = {
 " Source vimrcs per filetype
 autocmd BufEnter *.py source ~/GithubDrive/vimrc/Python.vim
 autocmd BufEnter *.c source ~/GithubDrive/vimrc/C.vim
+autocmd BufEnter *.html source ~/GithubDrive/vimrc/Html.vim
 
 " 

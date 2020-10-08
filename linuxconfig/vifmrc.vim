@@ -12,7 +12,8 @@ nnoremap n :! vim<space>
 nnoremap w :vs! | if layoutis('split') | view! | endif<cr>
 nnoremap r cw
 nnoremap R cW
-only
+set quickview
+"to make load in one window only
 
 nnoremap q :q<cr>
 command! q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
@@ -25,6 +26,11 @@ nnoremap <Space>r :cd /<cr>
 nnoremap <Space>ush :cd /usr/share/<cr>
 nnoremap <Space>dc :cd ~/.config<cr>
 nnoremap <Space>j :cd ~/Journal/BackEnd<cr>
+nnoremap <Space>sch :cd ~/Documents/School<cr>
+nnoremap <Space>wk :cd ~/Documents/School/Systems/CS214-Asst0/Asst0<cr>
+"nnoremap <Space> :cd 
+"nnoremap <Space> :cd 
+"nnoremap <Space> :cd 
 "nnoremap <Space> :cd 
 "nnoremap <Space> :cd 
 

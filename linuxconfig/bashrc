@@ -21,6 +21,10 @@ alias TestEditEntry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
 #Command aliases
 alias vf="vifm"
 alias x="exit"
+
+#Keybind aliases
+alias lvkeys="~/GithubDrive/linuxconfig/bashscripts/LeetVimKeyBindings.sh"
+alias stdkeys="~/GithubDrive/linuxconfig/bashscripts/StandardKeyBindings.sh"
 #Navigation aliases
 alias bashrc="vim ~/GithubDrive/linuxconfig/bashrc"
 alias vimrc="cd ~/GithubDrive/vimrc/"
