@@ -1,2 +1,2 @@
-mkdir /home/ezra/ShutdownScriptWorks
-#/home/ezra/GithubDrive/linuxconfig/bashscripts/ShutdownPush.sh
+/home/ezra/GithubDrive/linuxconfig/bashscripts/ShutdownPush.sh
+shutdown now
