@@ -1,2 +1,13 @@
-clear lock
-keycode 66 = Control_L Caps_Lock
+! for regular keys, we can simply set their keycodes to what we like. 
+! for modifier keys, however, there is a modifier map that needs to 
+! be updated. The add Control = Control_L searches through all keys, 
+! sees which have the specified modifier keysym, and adds that keycode to the modifier. 
+! In this way, the modifier map is behind whenever we change a keycode and needs to be updated.
+!
+!
+keycode 66 = Control_L
+
+clear Lock
+remove Control = Control_L
+add Control = Control_L
+

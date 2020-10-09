@@ -1,2 +1,16 @@
-clear lock
-keycode 66 = Escape Caps_Lock
+! this uses the face that the modifier map lags
+! behind the keysym map to our advantage. We first
+! set capslock keycode to control_L, then update the
+! modifier map so capslock is included as a control modifier,
+! then we set caps to escape without remove the modifier we just
+! made. This will send an escape keysym every time we shortcut. 
+
+
+!set capslock key, via keycode, to Escape
+keycode 66 = Escape
+
+
+!update modifier maps for capslock and control, which may have changed
+clear Lock
+remove Control = Control_L
+add Control = Control_L
