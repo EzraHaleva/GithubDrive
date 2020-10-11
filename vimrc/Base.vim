@@ -23,6 +23,13 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 vnoremap jk <Esc>
 vnoremap kj <Esc>
+tnoremap jk <C-\><C-n>
+tnoremap kj <C-\><C-n>
+
+"Window Switching mappings
+tnoremap <C-n> <c-\><c-n><c-w>w
+nnoremap <C-n> <c-\><c-n><c-w>w
+vnoremap <C-n> <c-\><c-n><c-w>w
 
 nnoremap ; :
 let mapleader = ' '

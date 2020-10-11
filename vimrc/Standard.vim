@@ -34,9 +34,8 @@ inoremap <Down> <nop>
 inoremap <Up> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
-tnoremap <Esc> :<C-w>N
-nnoremap <C-j> oa<BS><Esc>
-nnoremap <C-k> Oa<BS><Esc>
+nnoremap <C-j> o<Esc>k
+nnoremap <C-k> O<Esc>j
 nnoremap <leader>b a{<cr>}<Esc>O
 
 "Syntastic
@@ -46,7 +45,7 @@ nnoremap <leader>sb :lprevious<cr>
 nnoremap <leader>sl :Errors<cr>
 
 "Nerd Tree Settings
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 
 "gruvbox colorscheme options
 set termguicolors

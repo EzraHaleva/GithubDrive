@@ -20,6 +20,7 @@ alias TestEditEntry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
 
 #Command aliases
 alias vf="vifm"
+alias vim="nvim"
 alias x="exit"
 alias shutdown="~/GithubDrive/linuxconfig/bashscripts/Shutdown.sh"
 alias reboot="~/GithubDrive/linuxconfig/bashscripts/Reboot.sh"
