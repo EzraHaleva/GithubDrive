@@ -75,5 +75,6 @@ let g:lightline = {
 autocmd BufEnter *.py source ~/GithubDrive/vimrc/Python.vim
 autocmd BufEnter *.c source ~/GithubDrive/vimrc/C.vim
 autocmd BufEnter *.html source ~/GithubDrive/vimrc/Html.vim
+autocmd BufEnter *.hs source ~/GithubDrive/vimrc/Haskell.vim
 
 " 

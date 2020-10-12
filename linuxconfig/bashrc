@@ -50,6 +50,7 @@ vifm()
     fi
 }
 
+
 if [ "${StartTermWithVifm}" = "true" ]
 then
    vifm

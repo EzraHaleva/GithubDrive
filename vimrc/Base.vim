@@ -26,10 +26,13 @@ vnoremap kj <Esc>
 tnoremap jk <C-\><C-n>
 tnoremap kj <C-\><C-n>
 
-"Window Switching mappings
-tnoremap <C-n> <c-\><c-n><c-w>w
-nnoremap <C-n> <c-\><c-n><c-w>w
-vnoremap <C-n> <c-\><c-n><c-w>w
+"cnoremap q Q
+command Q call QuitPrompt()
+fun! QuitPrompt()
+      q
+      let choice = confirm("Close without saving?", "&yes\n&no", 1)
+      if choice == 1 | q! | endif
+endfun
 
 nnoremap ; :
 let mapleader = ' '
