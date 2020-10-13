@@ -26,6 +26,13 @@ vnoremap kj <Esc>
 tnoremap jk <C-\><C-n>
 tnoremap kj <C-\><C-n>
 
+"Split navigation
+noremap <A-h> <C-w>h
+noremap <A-j> <C-w>j
+noremap <A-k> <C-w>k
+noremap <A-l> <C-w>l
+nnoremap <A-h> o
+
 "cnoremap q Q
 command Q call QuitPrompt()
 fun! QuitPrompt()
