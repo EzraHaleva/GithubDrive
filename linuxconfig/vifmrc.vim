@@ -13,6 +13,8 @@ nnoremap w :vs! | if layoutis('split') | view! | endif<cr>
 nnoremap r cw
 nnoremap R cW
 set quickview
+set trash
+set trashdir=/home/ezra/.config/vifm/trash/
 "to make load in one window only
 
 nnoremap q :q<cr>
