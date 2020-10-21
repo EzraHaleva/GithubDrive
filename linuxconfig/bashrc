@@ -24,6 +24,7 @@ alias vim="nvim"
 alias x="exit"
 alias shutdown="~/GithubDrive/linuxconfig/bashscripts/Shutdown.sh"
 alias reboot="~/GithubDrive/linuxconfig/bashscripts/Reboot.sh"
+alias run="./run.sh"
 
 #Keybind aliases
 alias lvkeys="~/GithubDrive/linuxconfig/bashscripts/LeetVimKeyBindings.sh"
