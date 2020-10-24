@@ -36,7 +36,7 @@ inoremap <Left> <nop>
 inoremap <Right> <nop>
 nnoremap <C-j> o<Esc>k
 nnoremap <C-k> O<Esc>j
-nnoremap <leader>b a{<cr>}<Esc>O
+nnoremap <leader>b A{<cr>}<Esc>O
 
 "Syntastic
 let b:syntastic_mode='active'
