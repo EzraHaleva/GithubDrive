@@ -6,6 +6,9 @@ Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
 Plug 'vim-syntastic/syntastic'
 
+"VScode functionality in vim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 "Colorschemes
 Plug 'altercation/vim-colors-solarized'
 Plug 'morhetz/gruvbox'
@@ -31,7 +34,6 @@ noremap <A-h> <C-w>h
 noremap <A-j> <C-w>j
 noremap <A-k> <C-w>k
 noremap <A-l> <C-w>l
-nnoremap <A-h> o
 
 "cnoremap q Q
 command Q call QuitPrompt()

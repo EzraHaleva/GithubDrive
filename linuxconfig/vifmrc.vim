@@ -1,4 +1,4 @@
-set vixcmd="vim"
+set vixcmd="nvim"
 
 noremap ; :
 cnoremap kj <C-c> 
