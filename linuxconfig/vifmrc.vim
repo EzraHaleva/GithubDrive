@@ -29,8 +29,8 @@ nnoremap <Space>ush :cd /usr/share/<cr>
 nnoremap <Space>dc :cd ~/.config<cr>
 nnoremap <Space>j :cd ~/Journal/BackEnd<cr>
 nnoremap <Space>sch :cd ~/Documents/School<cr>
-nnoremap <Space>wk :cd ~/Documents/School/Systems/Asst1<cr>
-"nnoremap <Space> :cd 
+"nnoremap <Space>wk :cd ~/Documents/School/Systems/Asst1<cr>
+nnoremap <Space>wk :cd ~/Documents/Work/Lyft/Practice/<cr>
 "nnoremap <Space> :cd 
 "nnoremap <Space> :cd 
 "nnoremap <Space> :cd 
