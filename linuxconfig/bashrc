@@ -25,6 +25,11 @@ alias x="exit"
 alias shutdown="~/GithubDrive/linuxconfig/bashscripts/Shutdown.sh"
 alias reboot="~/GithubDrive/linuxconfig/bashscripts/Reboot.sh"
 alias run="./run.sh"
+alias untargz="tar -zxvf"
+alias untar="tar -xvf"
+alias targz="tar -czvf"
+alias tarxy="tar -cJf"
+alias sauce="source ~/.bashrc"
 
 #Keybind aliases
 alias lvkeys="~/GithubDrive/linuxconfig/bashscripts/LeetVimKeyBindings.sh"
@@ -36,6 +41,7 @@ alias liconf="cd ~/GithubDrive/linuxconfig/"
 alias tojrnl="cd ${JournalDriveDir}"
 alias tojrnldev="cd ~/Journal/BackEnd/"
 alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
+
 #Function from vifm wiki so shell directory is same as vifm
 #directory upon exit. Isn't called directly by vifm, but accesses
 #a file created by vifm, which is told to do so by mapping in vifmrc
@@ -47,7 +53,8 @@ vifm()
     # "command" prevents recursive call
     command vifm "$@"
     if [ -f ~/.config/vifm/lastdir ]; then
-        cd `cat ~/.config/vifm/lastdir`
+      #Must use quotes and not apostrophes to handle directories with spaces
+        cd "$(cat ~/.config/vifm/lastdir)"
     fi
 }
 
