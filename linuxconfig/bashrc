@@ -30,6 +30,7 @@ alias untar="tar -xvf"
 alias targz="tar -czvf"
 alias tarxy="tar -cJf"
 alias sauce="source ~/.bashrc"
+alias mkx="chmod +x"
 
 #Keybind aliases
 alias lvkeys="~/GithubDrive/linuxconfig/bashscripts/LeetVimKeyBindings.sh"
