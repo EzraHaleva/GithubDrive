@@ -29,7 +29,7 @@ nnoremap <Space>ush :cd /usr/share/<cr>
 nnoremap <Space>dc :cd ~/.config<cr>
 nnoremap <Space>j :cd ~/Journal/BackEnd<cr>
 nnoremap <Space>sch :cd ~/Documents/School<cr>
-nnoremap <Space>wk :cd ~/Documents/School/Systems/Practice\ Docs/SocketPractice<cr>
+nnoremap <Space>wk :cd ~/Documents/School/Systems/Asst3<cr>
 "nnoremap <Space>wk :cd ~/Documents/Work/Lyft/FinalRound/<cr>
 "nnoremap <Space> :cd 
 "nnoremap <Space> :cd 
