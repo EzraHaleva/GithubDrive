@@ -5,6 +5,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
 Plug 'vim-syntastic/syntastic'
+"Plug 'mxw/vim-prolog'
 
 "VScode functionality in vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
