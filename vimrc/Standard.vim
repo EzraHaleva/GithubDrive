@@ -31,14 +31,7 @@ filetype indent on
 
 
 "custom mappings
-noremap <Down> <nop>
-noremap <Up> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
-inoremap <Down> <nop>
-inoremap <Up> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
+
 nnoremap <C-j> o<Esc>cc<Esc>k
 nnoremap <C-k> O<Esc>cc<Esc>j
 nnoremap <leader>b A{<cr>}<Esc>O
