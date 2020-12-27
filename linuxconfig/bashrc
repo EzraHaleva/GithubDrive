@@ -11,12 +11,12 @@ alias tojrnlsh="cd ~/Journal/BackEnd/BashScripts/"
 alias cdWorkDir="cd ~/Journal/BackEnd/CRewrite"
 
 #Journal aliases
-alias NewEntry="~/Journal/BackEnd/BashScripts/NewEntry.sh"
-alias Compile="source ~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
-alias Save="~/Journal/BackEnd/BashScripts/Save.sh"
-alias EditEntry="~/Journal/BackEnd/BashScripts/EditEntry.sh"
-alias TestNewEntry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
-alias TestEditEntry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
+alias newentry="~/Journal/BackEnd/BashScripts/NewEntry.sh"
+alias compile="source ~/Journal/BackEnd/BashScripts/FullCompileScript.sh"
+alias save="~/Journal/BackEnd/BashScripts/Save.sh"
+alias editentry="~/Journal/BackEnd/BashScripts/EditEntry.sh"
+alias testnewentry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
+alias testeditentry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
 
 #Command aliases
 alias vf="vifm"
