@@ -66,4 +66,8 @@ if &term =~ '256color'
 endif
 
 "So clipboard between vim instances works with +y/+p
-set clipboard=unnamed
+set clipboard=unnamedplus
+"so plus key doesnt move down a line when pasting
+nnoremap <C-v> +p
+nnoremap <C-c> +y
+
