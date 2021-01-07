@@ -1,15 +1,13 @@
 Assorted computer related TODO: 
 ~~~~~~~~~~~~~~~~~~~~ 
+-make journal number files in 2 digits. Rename files that are already named with two digits.
 
 - Script that searches through file system, likely this GithubDrive,  finds the path to files commonly accesed by my scripts (often sourced rc  files, bash scripts, or python scripts), and loads these paths to a number of enviroment variables specific to each file. Then whenever accessing one such file, the program will access its corresponding env var and won't break if I move things around
-
--set up environment shortcuts to launch frequently used apps, like terminal or file manager
-
--Make journal app more of an encapsulated program. perhaps a command line app that we can launch with :journal, and then with a shortcut. Once app is launched, then we have options of n - new entry, e - edit entry, s - save (to github), x - exit. On journal exit we automatically save. on  journal entry we automatically pull. 
 
 - Add non standard journal functionality. Say I want to make a disaster series, or a defenses document. 
 
 - configure a custom terminal build, of either xterm or st or some other  terminal emulator. Also with maybe fish shell?
 
-- switch to neovim
-
+- fix spell check and grammar check in journal vim
+   *add to dictionary functionality
+   *ignore or dismiss functionality

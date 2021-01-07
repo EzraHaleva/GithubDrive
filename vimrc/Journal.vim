@@ -7,8 +7,8 @@ augroup END
 set formatprg=par
 set background=light
 "colorscheme gruvbox
-"colorscheme fogbell_light
-colorscheme vacme
+colorscheme fogbell_light
+"colorscheme vacme
 "colorscheme plan9
 "colorscheme kuroi "highlighting issue
 "colorscheme 
