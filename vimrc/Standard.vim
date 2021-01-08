@@ -48,7 +48,8 @@ nnoremap <leader>sl :Errors<cr>
 "map <C-n> :NERDTreeToggle<CR>
 
 "gruvbox colorscheme options
-set termguicolors
+"Must be commented out when using gpu accelerated terminal (alacritty)
+"set termguicolors
 set background=dark
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_italic=0
