@@ -22,7 +22,6 @@ set incsearch
 set hlsearch
 
 
-"
 "autocmd BufNewFile,BufRead * setlocal formatoptions-=cro "Stop comments automatically continue on new lines
 
 
