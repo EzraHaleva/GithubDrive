@@ -1,15 +1,11 @@
 "SHOULD NOT SOURCE ANYTHING
-call plug#begin('~/.vim/plugged')
 
+call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
-Plug 'vim-syntastic/syntastic'
-"Plug 'mxw/vim-prolog'
-
-"VScode functionality in vim
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+"Plug 'vim-syntastic/syntastic'
+"Plug 'neoclide/coc.nvim'
 "Colorschemes
 Plug 'altercation/vim-colors-solarized'
 Plug 'morhetz/gruvbox'
@@ -18,9 +14,7 @@ Plug 'matveyt/vim-modest'
 Plug 'arzg/vim-plan9'
 Plug 'aonemd/kuroi.vim'
 Plug 'olivertaylor/vacme'
-
-"Plug 'MarcWeber/vim-addon-local-vimrc' 
-
+"Colorschemes
 call plug#end()
 
 inoremap jk <Esc>
@@ -30,34 +24,35 @@ vnoremap kj <Esc>
 tnoremap jk <C-\><C-n>
 tnoremap kj <C-\><C-n>
 
+nnoremap ; :
+let mapleader = ' '
+
 "Split navigation
 noremap <A-h> <C-w>h
 noremap <A-j> <C-w>j
 noremap <A-k> <C-w>k
 noremap <A-l> <C-w>l
 
-"cnoremap q Q
-command Q call QuitPrompt()
-fun! QuitPrompt()
-      q
-      let choice = confirm("Close without saving?", "&yes\n&no", 1)
-      if choice == 1 | q! | endif
-endfun
-
-nnoremap ; :
-let mapleader = ' '
+nnoremap <leader>clr :call ClearSearch()<cr>
+function! ClearSearch()
+   exec "normal :let @/=\"\"\<cr>/\<BS>"
+endfunction
 
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-nnoremap <leader>clr :call ClearSearch()<cr>
-function! ClearSearch()
-   exec "normal :let @/=\"\"\<cr>/\<BS>"
-endfunction
 set noshowmode
 
-let b:syntastic_mode='passive'
+"sets default register for y and p to system clipboard
+set clipboard=unnamedplus
+"comment set clipboard=unnamedplus and uncomment below to make separate vim
+"and system clipboards
+"nmap <C-v> "+p
+"nmap <C-c> "+y
+"nmap <C-c><C-c> "+yy
+
+"let b:syntastic_mode='passive'
 
 if &term =~ '256color'
     " Disable Background Color Erase (BCE) so that color schemes
@@ -65,9 +60,11 @@ if &term =~ '256color'
      set t_ut=
 endif
 
-"So clipboard between vim instances works with +y/+p
-set clipboard=unnamedplus
-"so plus key doesnt move down a line when pasting
-nnoremap <C-v> +p
-nnoremap <C-c> +y
-
+"not sure what this is for, delete if not problems
+"cnoremap q Q
+"command Q call QuitPrompt()
+"fun! QuitPrompt()
+      "q
+      ""let choice = confirm("Close without saving?", "&yes\n&no", 1)
+      "if choice == 1 | q! | endif
+"endfun
