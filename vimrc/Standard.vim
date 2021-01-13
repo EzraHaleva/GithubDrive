@@ -33,10 +33,12 @@ nnoremap <C-j> o<Esc>"tcc<Esc>k
 nnoremap <C-k> O<Esc>"tcc<Esc>j
 
 "Syntastic
-"let b:syntastic_mode='active'
-"nnoremap [l :lprevious<cr>
-"nnoremap ]l :lnext<cr>
-"nnoremap <leader>sl :Errors<cr>
+let b:syntastic_mode='active'
+let g:syntastic_quiet_messages = { "type": "style" }
+
+nnoremap [l :lprevious<cr>
+nnoremap ]l :lnext<cr>
+nnoremap <leader>sl :Errors<cr>
 
 "gruvbox colorscheme options
 "set termguicolors must be commented out when using gpu accelerated terminal (alacritty)

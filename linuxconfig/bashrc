@@ -19,7 +19,8 @@ alias testnewentry="~/Journal/BackEnd/BashScripts/TestNewEntry.sh"
 alias testeditentry="~/Journal/BackEnd/BashScripts/TestEditEntry.sh"
 
 #Command aliases
-alias vf="vifm"
+#file manager
+alias ff="vifm"
 alias vim="nvim"
 alias x="exit"
 alias shutdown="~/GithubDrive/linuxconfig/bashscripts/Shutdown.sh"

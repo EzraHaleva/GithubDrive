@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
-"Plug 'vim-syntastic/syntastic'
+Plug 'vim-syntastic/syntastic'
 "Plug 'neoclide/coc.nvim'
 "Colorschemes
 Plug 'altercation/vim-colors-solarized'
