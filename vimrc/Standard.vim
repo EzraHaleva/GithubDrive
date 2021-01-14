@@ -34,7 +34,7 @@ nnoremap <C-k> O<Esc>"tcc<Esc>j
 
 "Syntastic
 let b:syntastic_mode='active'
-let g:syntastic_quiet_messages = { "type": "style" }
+let g:syntastic_python_checkers = ['flake8']
 
 nnoremap [l :lprevious<cr>
 nnoremap ]l :lnext<cr>
@@ -44,7 +44,7 @@ nnoremap <leader>sl :Errors<cr>
 "set termguicolors must be commented out when using gpu accelerated terminal (alacritty)
 "set termguicolors
 set background=dark
-"let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_contrast_dark = 'hard'
 "let g:gruvbox_italic=0
 colorscheme gruvbox
 
