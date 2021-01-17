@@ -8,7 +8,7 @@ noremap <Space> <nop>
 noremap <Tab> <nop>
 nnoremap z za
 nnoremap N :! mkdir<space> 
-nnoremap n :! vim<space> 
+nnoremap n :! nvim<space> 
 nnoremap w :vs! | if layoutis('split') | view! | endif<cr>
 nnoremap r cw
 nnoremap R cW

@@ -1,11 +1,12 @@
 "SHOULD NOT SOURCE ANYTHING
 
-call plug#begin('~/.vim/plugged')
+call plug#begin()
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-pencil'
 Plug 'vim-syntastic/syntastic'
-"Plug 'neoclide/coc.nvim'
+"Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Colorschemes
 Plug 'altercation/vim-colors-solarized'
 Plug 'morhetz/gruvbox'

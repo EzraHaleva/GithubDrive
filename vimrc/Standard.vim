@@ -34,6 +34,7 @@ nnoremap <C-k> O<Esc>"tcc<Esc>j
 
 "Syntastic
 let b:syntastic_mode='active'
+let g:syntastic_quiet_messages = { "type": "style" }
 let g:syntastic_python_checkers = ['flake8']
 
 nnoremap [l :lprevious<cr>
